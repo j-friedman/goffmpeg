@@ -1,6 +1,4 @@
 ﻿# Goffmpeg
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93e018e5008b4439acbb30d715b22e7f)](https://www.codacy.com/app/francisco.romero/goffmpeg?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=xfrr/goffmpeg&amp;utm_campaign=Badge_Grade)
-
 FFMPEG wrapper written in GO which allows to obtain the progress.
 
 ## V2
@@ -20,14 +18,14 @@ New implementation with an easy-to-use API and interfaces to extend the transcod
 # Getting started
 ## How to transcode a media file
 ```shell
-go get github.com/xfrr/goffmpeg
+go get github.com/j-friedman/goffmpeg
 ```
 
 ```go
 package main
 
 import (
-    "github.com/xfrr/goffmpeg/transcoder"
+    "github.com/j-friedman/goffmpeg/transcoder"
 )
 
 var inputPath = "/data/testmov"

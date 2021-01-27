@@ -1,9 +1,10 @@
 package transcoder
 
 import (
-	"github.com/stretchr/testify/require"
-	"github.com/xfrr/goffmpeg/models"
 	"testing"
+
+	"github.com/j-friedman/goffmpeg/models"
+	"github.com/stretchr/testify/require"
 )
 
 func TestTranscoder(t *testing.T) {
